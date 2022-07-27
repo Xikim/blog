@@ -1,0 +1,12 @@
+[user]
+	email = alan@email.com
+	name = Alan
+[core]
+	editor = code --wait
+[push]
+	followTags = true
+[alias]
+	s = !git status -s
+	c = !git add --all && git commit -m
+	log = !git log --pretty=format:'%C(blue)%h%C(red)%d %C(white)%s - %C(cyan)%cn,%C(green)%cr'
+    l = !git log --pretty=format:'%C(red)%d %C(white)%s - %C(cyan)%cn,%C(green)%cr'
