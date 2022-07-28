@@ -30,3 +30,7 @@ hr{
 .post > header > div:first-of-type{
     flex: auto;
 }
+.no-posts{
+    font-style: italic;
+    color: gray;
+}
