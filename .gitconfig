@@ -10,3 +10,11 @@
 	c = !git add --all && git commit -m
 	log = !git log --pretty=format:'%C(blue)%h%C(red)%d %C(white)%s - %C(cyan)%cn,%C(green)%cr'
     l = !git log --pretty=format:'%C(red)%d %C(white)%s - %C(cyan)%cn,%C(green)%cr'
+
+	co = checkout
+	ci = commit
+	st = status
+	br = branch
+	hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+	type = cat-file -t
+	dump = cat-file -p
