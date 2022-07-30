@@ -1,7 +1,7 @@
-html {
+html{
     font-family: sans-serif;
     background: #eee;
-    padding: 1rem
+    padding: 1rem;
 }
 body{
     max-width: 960px;
@@ -20,6 +20,9 @@ hr{
 .content{
     padding: 0 1rem 1rem;
 }
+.post > header > div:first-of-type{
+    flex: auto;
+}
 .post .about{
     color: slategray;
     font-style: italic;
@@ -27,18 +30,15 @@ hr{
 .post .body{
     white-space: pre-line;
 }
-.post > header > div:first-of-type{
-    flex: auto;
-}
 .no-posts{
     font-style: italic;
     color: gray;
 }
 .content form{
-    margin: 1em 0;
+    margin: 1em auto;
     display: flex;
     flex-direction: column;
-    max-width:70%;
+    max-width: 40%;
 }
 .content label{
     font-weight: bold;
